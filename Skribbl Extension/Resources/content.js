@@ -51,3 +51,6 @@ function focusCursor(){
         input.setSelectionRange(len, len);
     },10)
 }
+
+document.getElementsByClassName("title")[1].innerHTML = "Gays";
+

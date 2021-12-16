@@ -22,6 +22,8 @@
       * déclencher "insertBeast()" ou "removeExistingBeasts()".
       */
      browser.runtime.onMessage.addListener((message) => {
+         document.getElementById("buttonLoginCreatePrivate").click();
+         document.getElementById("lobbyCustomWordsExclusive").click();
          if (message.command === "fill") {
              test(message.wordsList);
          }
