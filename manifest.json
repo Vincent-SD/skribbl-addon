@@ -7,7 +7,7 @@
   "description": "zone",
   "homepage_url": "https://gay",
   "icons": {
-    "48": "cons/icon.ico"
+    "48": "icons/icon.ico"
   },
 
   "permissions": [
