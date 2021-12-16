@@ -1,0 +1,32 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    width: 100px;
+    padding: 10px;
+
+    font-family: system-ui;
+    text-align: center;
+}
+
+.complete {
+    display:inline-block;
+    color:#444;
+    border:1px solid #CCC;
+    background:#DDD;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    vertical-align:middle;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+.complete:active {
+    color:red;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark Mode styles go here. */
+}
